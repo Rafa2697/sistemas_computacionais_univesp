@@ -44,7 +44,7 @@ Um computador paralelo cujas CPUs compartilham uma memória comum é denominado 
 
 ![figura4.13](./image/figura4.13.png)
 
->[!Nota]
+>[!NOTE]
 > A capacidade de dois (ou mais) processos comunicarem-se apenas lendo a escrevendo na memória é o principal motivo de os multiprocessadores serem populares. É m modelo fácil de entender para os programadores e é aplicavel a inúmeros problemas. 
 
 ### Multicomputadores
