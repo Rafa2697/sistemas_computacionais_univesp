@@ -26,12 +26,11 @@ No CISC tradicional, as instruções têm tamanhos e tempos muito diferentes. Um
 
 ------------------------------
 ## A Solução Moderna: A Fusão das Duas
-Como você é iniciante, aqui vai o maior segredo dos computadores atuais (como o seu Intel ou AMD): eles usam as duas arquiteturas juntas para alcançar o paralelismo máximo.
+O como você é iniciante, aqui vai o maior segredo dos computadores atuais (como o seu Intel ou AMD): eles usam as duas arquiteturas juntas para alcançar o paralelismo máximo.
 
 ![IMAGE](./image/decodificador_processos.png)
 
 Os processadores modernos são CISC por fora e RISC por dentro. Eles recebem o código compacto do CISC, quebram esse código em mini-instruções simples (chamadas micro-ops, idênticas ao RISC) e jogam essas mini-instruções em várias esteiras paralelas.
-Se você quiser avançar, posso te explicar o que são os "Núcleos" (Cores) e Threads de um processador ou prefere ver os problemas comuns (hazards) que travam essas esteiras?
 
 
 ## Multprocessadores x Multicomputadores
